@@ -1,0 +1,44 @@
+/* Reset some default browser styles */
+ *{
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* background-image: url(img/pexels-denis-linine-214373-714256.jpg);
+ */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #502746;
+  padding: 2rem 2rem;
+}
+
+.navbar-brand .brand-logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+ 
+
+.navbar-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar-item .navbar-link {
+  color: #fff;
+  font-size:20px;
+  transition: color 0.3s;
+  
+}
+
+.navbar-item .navbar-link:hover {
+  color: #e6f104; 
+}
